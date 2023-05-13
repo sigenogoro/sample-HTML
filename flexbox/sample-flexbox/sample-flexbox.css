@@ -1,0 +1,27 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color: aquamarine;
+    height: 100px;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.content1 {
+    background-color: aqua;
+    width: 15%;
+}
+
+.content2 {
+    background-color: blue;
+    width: 85%;
+}
