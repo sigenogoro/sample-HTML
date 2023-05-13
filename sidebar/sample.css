@@ -1,0 +1,20 @@
+.demo1 {
+    background: red;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.demo2 {
+    background: black;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.demo3 {
+    background: green;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
