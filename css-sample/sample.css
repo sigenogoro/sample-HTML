@@ -5,17 +5,23 @@ html, body {
     width: 100%;
 }
 
-.parent {
+.test1 {
     width: 200px;
-    background-color: silver;
+    background: skyblue;
 }
 
-.child {
-    width: 50%;
-    background-color: yellow;
+.test2 {
+    width: 100px;
+    background: skyblue;
 }
 
-p {
+.nomin {
+    background: gray;
     width: 50%;
-    background-color: orange;
+}
+
+.min {
+    background: orange;
+    width: 50%;
+    min-width: 100px;
 }
