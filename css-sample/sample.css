@@ -5,23 +5,15 @@ html, body {
     width: 100%;
 }
 
-.test1 {
-    width: 100px;
+.middle {
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+}
+
+.above {
     background: skyblue;
-}
-
-.test2 {
-    width: 200px;
-    background: skyblue;
-}
-
-.nomin {
-    background: gray;
-    width: 80%;
-}
-
-.min {
-    background: orange;
-    width: 80%;
-    max-width: 100px;
+  }
+.under {
+    background: silver;
 }
