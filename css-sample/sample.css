@@ -5,15 +5,14 @@ html, body {
     width: 100%;
 }
 
-.middle {
-    background-color: orange;
-    padding: 10px;
-    margin: 10px;
+.parent {
+    background-color: silver;
+    width: 200px;
 }
 
-.above {
-    background: skyblue;
-  }
-.under {
-    background: silver;
+.parent p {
+    width: 60%;
+    margin: 0 20%;
+    padding: 0;
+    background-color: orange;
 }
