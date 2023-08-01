@@ -7,16 +7,42 @@ html, body {
 
 .block1 {
     background-color: palegreen;
-    width: 500px;
-    height: 500px;
-    padding: 100px;
-    margin: 100px;
+    width: 200px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .block2 {
     background-color: orange;
-    width: 500px;
-    height: 20px;
-    padding: 100px;
-    margin: 100px;
+}
+
+.sample {
+    text-align: center;
+}
+
+a {
+    background-color: aqua;
+    color: aliceblue;
+}
+
+span {
+    background: orange;
+}
+
+#nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav ul li {
+    display: inline-block;
+    width: 80px;
+    padding: 0 10px;
+    margin: 0 10px;
+    vertical-align: middle;
+    background-color: aqua;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 10px;
 }
