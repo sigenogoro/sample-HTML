@@ -5,13 +5,18 @@ html, body {
     width: 100%;
 }
 
-.parent {
-    background-color: silver;
-    width: 250px;
+.block1 {
+    background-color: palegreen;
+    width: 500px;
+    height: 500px;
+    padding: 100px;
+    margin: 100px;
 }
 
-.parent p {
-    width: 50px;
-    margin: 0 auto;
+.block2 {
     background-color: orange;
+    width: 500px;
+    height: 20px;
+    padding: 100px;
+    margin: 100px;
 }
